@@ -1,7 +1,9 @@
-# Ferritin-report
+<h1> Ferritin Levels in US Women Aged 18–49</h1>
 NHANES 2021–2023 Ferritin analysis in US women aged 18–49
-# Ferritin Levels in US Women Aged 18–49
-
+<hr>
+html link - https://maria-kolouchova.github.io/Ferritin-report/
+<br>
+<br>
 This project demonstrates my ability to obtain, clean, analyse, and visualise real-world health datasets using Python. The focus is on ferritin levels in US women of reproductive age using NHANES 2021–2023 data.
 
 The notebook has been exported to HTML and contains:
@@ -17,7 +19,8 @@ The notebook has been exported to HTML and contains:
 - **WHO Context:** "The World Health Organisation (WHO) estimates that 42% of children under 5 years of age and 40% of pregnant women worldwide are anaemic. Iron deficiency, haemoglobinopathies, and malaria are considered the three top causes of anaemia globally."  
   [Source](https://www.who.int/docs/default-source/micronutrients/ferritin-guideline/ferritin-guidelines-brochure.pdf?sfvrsn=76a71b5a_4)
 - **NHANES Dataset:** The analysis uses NHANES 2021–2023 data to examine ferritin levels in US women aged 18–49.  
-  [NHANES Documentation](https://www.cdc.gov/nchs/nhanes/index.htm)
+  [NHANES Documentation] https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FERTIN_L.htm
+
 
 ## Skills Demonstrated
 
