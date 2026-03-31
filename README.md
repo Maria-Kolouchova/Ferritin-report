@@ -1,34 +1,51 @@
-<h1> Ferritin Levels in US Women Aged 18–49</h1>
-NHANES 2021–2023 Ferritin analysis in US women aged 18–49
+<h1>Ferritin Levels in US Women Aged 18–49</h1>
+
+Analysis of ferritin levels in US women of reproductive age using NHANES 2021–2023 data.
+
 <hr>
-html link - https://maria-kolouchova.github.io/Ferritin-report/
-<br>
-<br>
-This project demonstrates my ability to obtain, clean, analyse, and visualise real-world health datasets using Python. The focus is on ferritin levels in US women of reproductive age using NHANES 2021–2023 data.
+Project Outputs
 
-The notebook has been exported to HTML and contains:
+This project is available in multiple formats:
 
-- Data import and preparation
-- Population-weighted ferritin distribution
-- Visualisations and histograms of ferritin categories
-- Interpretation of results based on current clinical and statistical references
+Jupyter Notebook (.ipynb) – complete analysis including code, methodology, and data processing
+HTML Report – clean, code-free version of the analysis for easy viewing
+PDF Report – static version suitable for sharing or offline access
 
-## Key Highlights
+🔗 View HTML report: https://maria-kolouchova.github.io/Ferritin-report/
 
-- **Ferritin Explained:** Ferritin is a blood protein that reflects the body's iron stores. Its protein shell can store up to 4,500 iron atoms, which are essential for energy metabolism, oxygen transport, and overall health.
-- **WHO Context:** "The World Health Organisation (WHO) estimates that 42% of children under 5 years of age and 40% of pregnant women worldwide are anaemic. Iron deficiency, haemoglobinopathies, and malaria are considered the three top causes of anaemia globally."  
-  [Source](https://www.who.int/docs/default-source/micronutrients/ferritin-guideline/ferritin-guidelines-brochure.pdf?sfvrsn=76a71b5a_4)
-- **NHANES Dataset:** The analysis uses NHANES 2021–2023 data to examine ferritin levels in US women aged 18–49.  
-  [NHANES Documentation] https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FERTIN_L.htm
+Project Overview
 
+This project demonstrates my ability to obtain, clean, analyse, and visualise real-world health data using Python. The analysis focuses on ferritin levels in US women aged 18–49, based on NHANES 2021–2023 data.
 
-## Skills Demonstrated
+The analysis includes:
 
-- Python programming (data manipulation with `pandas`, plotting with `matplotlib`)
-- Data cleaning, weighting, and population-level analysis
-- Visual interpretation of health biomarkers
-- Reproducible research workflow (notebook → HTML report → GitHub Pages)
+Data import and preparation
+Population-weighted ferritin distribution
+Visualisations of ferritin categories
+Interpretation of results using clinical and statistical context
+Methodological Focus
 
-## License
+This analysis focuses on identifying iron deficiency and optimal ferritin levels (50–100 µg/L).
 
-This project is dedicated to the public domain under the CC0 1.0 Universal (CC0 1.0) License. You can use, modify, and share this work for any purpose, without any restrictions.
+Values above 100 µg/L are grouped together as they fall outside the target range and are not the primary focus of this analysis.
+
+Ferritin is also influenced by inflammation and physiological factors, so results should be interpreted in context.
+
+Key Highlights
+Ferritin Explained: Ferritin is a blood protein that reflects the body's iron stores and is commonly used to assess iron deficiency.
+WHO Context:
+"The World Health Organisation (WHO) estimates that 42% of children under 5 years of age and 40% of pregnant women worldwide are anaemic. Iron deficiency, haemoglobinopathies, and malaria are considered the three top causes of anaemia globally."
+Source
+NHANES Dataset:
+The analysis uses NHANES 2021–2023 data to examine ferritin levels in US women aged 18–49.
+https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/FERTIN_L.htm
+Skills Demonstrated
+Python programming (pandas, matplotlib)
+Data cleaning and population weighting
+Exploratory data analysis (EDA)
+Visualisation and interpretation of health data
+Reproducible workflow (Notebook → HTML → GitHub Pages)
+License
+
+This project is dedicated to the public domain under the CC0 1.0 Universal (CC0 1.0) License.
+You are free to use, modify, and distribute this work without restriction.
